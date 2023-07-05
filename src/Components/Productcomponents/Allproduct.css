@@ -1,0 +1,20 @@
+.allproductpage .heading{
+    background-color: palevioletred;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.allproductpage .heading p{
+    font-size: 50px;
+}
+.allproductpage .allproductcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}

@@ -1,0 +1,72 @@
+.addproduct-container{
+  display: flex; 
+  justify-content: center;
+  padding-top: 10px; 
+  
+}
+.addprod-form{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 600px;
+    background-color: cornflowerblue;
+}
+.addprod-form label{
+    padding: 0px;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 12px;
+
+}
+.addprod-form input{
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 13px;
+}
+.addprod-form textarea{
+    margin: 2px 0px;
+    border-radius: 5px;
+    padding: 5px;
+    border: 2px solid gray;
+    font-size: 13px;
+}
+.addprod-form input:focus{
+    outline: 2px solid orange;
+}
+.addprod-form button{
+    background-color: aqua;
+    margin: 10px 0px;
+    border: none;
+    font-size: 15px;
+    color:aliceblue;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 5px;
+}
+.addprod-form button:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.sucess-msg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    color: green;
+}
+.error-msg{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    color: red;
+}

@@ -1,0 +1,10 @@
+.slider-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slider-heading p{
+    font-size: 60px;
+    font-weight: 700;
+    color: black;
+}

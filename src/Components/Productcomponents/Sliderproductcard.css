@@ -1,0 +1,70 @@
+.mini-pdt-cnt{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    margin: 5px;
+    width:230px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 2px 0px gray;
+    padding: 10px;
+    align-items: center;
+    height: 450px;
+    border-radius: 10px;
+}
+.mini-img-cnt{
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+}
+.mini-img-cnt img{
+    max-width: 220px;
+    max-height: 200px;
+}
+.mini-prod-detail{
+display: flex;
+flex-direction:column;
+}
+.mini-prodtitle{
+font-size: 25px;
+font-weight: 500;
+}
+.mini-price-container{
+        display: flex;
+        padding: 0px;
+        margin: 0px;
+        flex-direction: column;
+    
+}
+.mrps,.saleprices,.yousaves{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    line-height: 0px;
+}
+.saleprices .rates{
+    color: black;
+    margin-left: 5px;
+}
+.mrps .rates{
+    color: red;
+    margin-left: 5px;
+    border: 1px solid;
+}
+.showmore-btn{
+    background-color: yellow;
+    color: black;
+    width: fit-content;
+    height: fit-content;
+    border: 2px solid white;
+    padding: 5px;
+    bottom: 7px;
+    margin-top: 20px;
+}
+.showmore-btn button{
+background-color: aqua;
+}
+.showmore-btn:hover{
+    background-color: black;
+    color: white;
+}
